@@ -2,6 +2,8 @@
 
 My Youtube channel link :
 https://www.youtube.com/@SunilTech218
+
+
 class 2:
 
 
@@ -374,6 +376,100 @@ i=2 => j=0,1,2
 i=3 => j=0,1,2,3
 i=4 => j=0,1,2,3,4
 =======================
+===============================================================================
+Class 4 :
+================
+*
+**
+***
+****
+*****
+============================
+i=0  we need one iteration j=0
+i=1  we need two iteration j=0,1
+i=2          three         j=0,1,2
+
+
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        Scanner scan =new Scanner(System.in);
+        int n=scan.nextInt();
+        for(int i=1;i<=n;i++){
+            for(int k=1;k<=n-i;k++){
+                System.out.print("$");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+====================================================
+program 5 
+================
+     *
+    **
+   ***
+  ****
+ *****
+=======================================================
+      *
+     * *
+   * * * *
+  *  * * * *
+*  *  *  *  *
+===============================================
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        Scanner scan =new Scanner(System.in);
+        int n=scan.nextInt();
+        for(int i=1;i<=n;i++){
+            for(int k=1;k<=n-i;k++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+===================================================
+ublic class Solution {
+
+
+
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        int N = scanner.nextInt();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+        if(N%2==1){
+            System.out.println("Weird");
+        }else{
+            if(N>=2 && N<=5){
+                System.out.println("Not Weird");
+            }else if(N>=6 && N<=20){
+                System.out.println("Weird");
+            }else{
+                System.out.println("Not Weird");
+            }
+        }
+
+        scanner.close();
+    }
+}
+
+==========================================
+
+
+
+
 
 
 
